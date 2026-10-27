@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackOpsGun (BOG) | Jual Beli Perlengkapan Taktis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar" id="navbar">
+    <div class="brand">
+      <img class="logo1" src="Images/logo1.png" alt="">
+      <a href="#beranda" class="logo">BOG</a>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" type="button"
+            aria-label="Buka menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Teratas</a></li>
+        <li><a href="#pesan">Pesan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <div class="nav-auth">
+        <a href="#" class="btn btn-outline">Login</a>
+        <a href="#signup" class="btn btn-solid">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="beranda">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+        <source src="videos/background.mp4" type="video/mp4">
+      </video>
+
+      <div class="hero-content">
+        <p class="hero-label">BlackOpsGun</p>
+        <h1>Jual Beli Perlengkapan Tempur dan Taktis</h1>
+        <p class="hero-text">
+          BOG adalah tempat jual beli perlengkapan taktis, baru maupun bekas.
+          Lihat katalog, pilih yang kamu butuhkan, lalu pesan dengan cara
+          yang paling nyaman.
+        </p>
+        <a href="#tentang" class="btn btn-solid btn-besar">Lihat Katalog</a>
+      </div>
+    </section>
+
+    <!-- ===== Produk ===== -->
+    <section class="tentang" id="tentang">
+      <h2>Teratas</h2>
+      <p class="tentang-sub">
+        Peralatan tempur paling diminati.
+      </p>
+
+      <div class="fitur-grid">
+        <article class="fitur-card">
+          <img src="images/M4.png" alt="m4" class="fitur-img" loading="lazy">
+          <div class="fitur-body">
+            <h3>#1 M4 Carbine</h3>
+            <p>Senjata jarak menengah yang digunakan oleh pasukan khusus NATO.</p>
+          </div>
+        </article>
+
+        <article class="fitur-card">
+          <img src="images/ah-64 aPACHE.jpg" alt="Chopper" class="fitur-img" loading="lazy">
+          <div class="fitur-body">
+            <h3>#2 AH-64D</h3>
+            <p>"Who needs air support?" Kata pilot AH-64D saat perang di Iran.</p>
+          </div>
+        </article>
+
+        <article class="fitur-card">
+          <img src="images/A-10.jpg" alt="planes" class="fitur-img" loading="lazy">
+          <div class="fitur-body">
+            <h3>#3 A-10 thunderbolt</h3>
+            <p>pesawat pengebom taktis dengan suara meriamnya yany ikonik milik militer Amerika Serikat.</p>
+          </div>
+        </article>
+
+        <article class="fitur-card">
+          <img src="images/GEAR.jpg" alt="Gear & Armor" class="fitur-img" loading="lazy">
+          <div class="fitur-body">
+            <h3>#4 Gear & Armor</h3>
+            <p>Gear dan Armor untuk operasi taktis.</p>
+          </div>
+        </article>
+
+        <article class="fitur-card">
+          <img src="images/johnpauljpg.jpg" alt="Sepatu PDL" class="fitur-img" loading="lazy">
+          <div class="fitur-body">
+            <h3>#5 USS John Paul Jones</h3>
+            <p>"Kapal kelas destroyer yang sangat tangguh dalam operasi taktis."</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Pesan ===== -->
+    <section class="pesan" id="pesan">
+      <h2 class="wannaorder">Ingin Memesan?</h2>
+      <p class="pesan-sub">Pilih cara yang paling cocok buat kamu.</p>
+
+      <div class="pesan-grid">
+        <article class="pesan-card">
+          <div class="pesan-ikon">📍</div>
+          <h3>Datang Langsung</h3>
+          <p>Pilih barangnya dulu di katalog, lalu datang dan ambil langsung di markas kami.</p>
+          <a href="#kontak" class="btn btn-solid">Temukan Lokasi</a>
+        </article>
+
+        <article class="pesan-card">
+          <div class="pesan-ikon">🚚</div>
+          <h3>Pengiriman</h3>
+          <p>Pesan lewat web atau WhatsApp, barang dikirim sampai depan pintu rumahmu.</p>
+          <a href="https://wa.me/6281234567890" class="btn btn-solid" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+        </article>
+
+        <article class="pesan-card">
+          <div class="pesan-ikon">✅</div>
+          <h3>Pesan dan Bayar Dulu</h3>
+          <p>Bayar di muka supaya kami siapin dulu pesanan kamu.</p>
+          <a href="#form-pendaftaran" class="btn btn-solid">Pesan Sekarang</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Form Pendaftaran Data Diri ===== -->
+    <section class="form-bg py-5" id="signup">
+  <div class="container">
+    <div class="mx-auto p-3 p-md-4 rounded bg-secondary shadow border border-secondary" style="max-width: 700px;">
+      <h2 class="mb-4 text-center">Formulir Data Diri</h2>
+
+      <form id="formDaftar" novalidate>
+        <!-- a. Nama -->
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama</label>
+          <input type="text" class="form-control" id="nama" placeholder="Masukkan nama lengkap" autocomplete="name">
+          <div class="invalid-feedback text-white fw-semibold" id="errNama"></div>
+        </div>
+
+        <!-- b. Alamat -->
+        <div class="mb-3">
+          <label for="alamat" class="form-label">Alamat</label>
+          <textarea class="form-control" id="alamat" rows="3" placeholder="Masukkan alamat lengkap" autocomplete="street-address"></textarea>
+          <div class="invalid-feedback text-white fw-semibold" id="errAlamat"></div>
+        </div>
+
+        <!-- c. Kota -->
+        <div class="mb-3">
+          <label for="kota" class="form-label">Kota</label>
+          <select class="form-select" id="kota">
+            <option value="" selected disabled>Pilih Kota</option>
+            <option value="Semarang">Semarang</option>
+            <option value="Kudus">Kudus</option>
+            <option value="Demak">Demak</option>
+            <option value="Pekalongan">Pekalongan</option>
+            <option value="Tegal">Tegal</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Jakarta">Jakarta</option>
+          </select>
+          <div class="invalid-feedback text-white fw-semibold" id="errKota"></div>
+        </div>
+
+        <!-- d. Hobi (boleh dikosongkan) -->
+        <div class="mb-3">
+          <label class="form-label d-block">Hobi</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="hobi" id="hobiMembaca" value="Membaca">
+            <label class="form-check-label" for="hobiMembaca">Membaca</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="hobi" id="hobiKoding" value="Koding">
+            <label class="form-check-label" for="hobiKoding">Koding</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="hobi" id="hobiBerenang" value="Berenang">
+            <label class="form-check-label" for="hobiBerenang">Berenang</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="hobi" id="hobiMenggambar" value="Menggambar">
+            <label class="form-check-label" for="hobiMenggambar">Menggambar</label>
+          </div>
+        </div>
+
+        <!-- Tombol Kirim -->
+        <button type="submit" class="btn btn-primary w-100 mt-2">Kirim Data</button>
+
+        <!-- Hasil setelah berhasil (diisi oleh JavaScript) -->
+        <div class="alert alert-success mt-3 mb-0 d-none" id="hasilDaftar" role="status"></div>
+      </form>
+
+    </div>   
+  </div>     
+</section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" id="kontak">
+    <p>Hubungi kami: halo@blackopsgun.com</p>
+    <p>WhatsApp: <a href="https://wa.me/6281234567890" target="_blank" rel="noopener">081234567890</a></p>
+    <p>&copy; <span id="tahun"><b>2026</b></span> <b>BlackOpsGun</b>. Semua hak dilindungi.</p>
+    <p>Nama   : Fajar Arya Pratama</p>
+    <p>NIM    : A12.2025.07366</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmxc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
